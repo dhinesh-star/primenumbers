@@ -15,7 +15,7 @@ main()
 	int a,c,d;
 	cout<<"Enter the number";
 	cin>>a;
-	for(int i=2;i<a/2;i++)
+	for(int i=2;i<=a/2;i++)
 	{
 		c=prim(i);
 		if(c==0)
